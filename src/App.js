@@ -1,11 +1,17 @@
 import React from 'react'
 import { SafeAreaView, StyleSheet } from 'react-native'
 
-import MinMax from './components/MinMax'
+import Aleatorio from './components/Aleatorio'
+// import MinMax from './components/MinMax'
 
 export default () => (
     <SafeAreaView style={style.App}>
-        <MinMax/>
+        <Aleatorio min={1} max={60} />
+        <Aleatorio min={1} max={60} />
+        <Aleatorio min={1} max={60} />
+        <Aleatorio min={1} max={60} />
+        <Aleatorio min={1} max={60} />
+        <Aleatorio min={1} max={60} />
     </SafeAreaView>
 )
 
