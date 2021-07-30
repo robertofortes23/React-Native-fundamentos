@@ -1,11 +1,11 @@
 import React from 'react'
-import { View, StyleSheet } from 'react-native'
+import { SafeAreaView, StyleSheet } from 'react-native'
 export default class App extends React.Component {
 	render() {
 		return (
-			<View style={styles.container}>
+			<SafeAreaView style={style.App}>
 
-			</View>
+			</SafeAreaView>
 		)
 	}
 }
