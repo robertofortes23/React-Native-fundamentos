@@ -1,17 +1,14 @@
 import React from 'react'
 import { SafeAreaView, StyleSheet } from 'react-native'
 
-import Aleatorio from './components/Aleatorio'
+import Titulo from './components/Titulo'
+// import Aleatorio from './components/Aleatorio'
 // import MinMax from './components/MinMax'
 
 export default () => (
     <SafeAreaView style={style.App}>
-        <Aleatorio min={1} max={60} />
-        <Aleatorio min={1} max={60} />
-        <Aleatorio min={1} max={60} />
-        <Aleatorio min={1} max={60} />
-        <Aleatorio min={1} max={60} />
-        <Aleatorio min={1} max={60} />
+        <Titulo principal="Cadastro Produto"
+            segundario="Tela de Cadastro do Produto" />
     </SafeAreaView>
 )
 
